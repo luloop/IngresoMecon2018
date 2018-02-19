@@ -13,7 +13,7 @@ function MostrarDescuento()
     resul = importe * 0.75; 
 
 //solucion
-document.getElementById("resultado").value = resul;
+document.getElementById("resultado").value = resul.toFixed(2);
 	
 	
 }
